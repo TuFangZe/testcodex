@@ -1,0 +1,14 @@
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.DS_Store
+
+# Generated reports
+outputs/
+
+# Local scratch space
+work/
+
+# Local-only report exports
+polymarket_report_*.md
