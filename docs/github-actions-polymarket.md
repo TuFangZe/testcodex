@@ -9,7 +9,9 @@
 
 ## 文件
 
-- Workflow: [`.github/workflows/polymarket-daily.yml`](/C:/Users/fangz/Documents/Codex/2026-06-27/new-chat-3/.github/workflows/polymarket-daily.yml)
+- Workflow: `.github/workflows/polymarket-daily.yml`
+- Gmail OAuth2: `docs/gmail-oauth-setup.md`
+- 示例环境变量：`.env.example`
 
 ## 当前定时
 
@@ -88,3 +90,4 @@ workflow 结束后会上传：
 - 如果 OpenAI 生成失败，会自动降级为模板化 Markdown 报告。
 - Gmail 发送不依赖本地桌面连接器，电脑关机也不影响执行。
 - 如果你想先不发邮件验证抓取链路，可以临时在 workflow 里加 `POLYMARKET_DRY_RUN: "1"`。
+- Gmail OAuth2 的具体准备步骤见 `docs/gmail-oauth-setup.md`。
